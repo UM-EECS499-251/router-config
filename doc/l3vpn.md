@@ -12,11 +12,11 @@ Here are the steps:
 
 2. Install [virtualbox](https://www.virtualbox.org/wiki/Downloads) on your laptop, then download [GNS3 VM for virtualbox](https://github.com/GNS3/gns3-gui/releases/download/v2.2.56.1/GNS3.VM.VirtualBox.2.2.56.1.zip) from GNS3 github.   Attention: this only works for Intel CPUs.
 
-3. Download a Cisco 7200 IOS image file [c7200-advipservicesk9-mz.124-24.T8.image](https://github.com/GNS3/gns3-gui/releases/download/v2.2.56.1/GNS3.VM.VirtualBox.2.2.56.1.zip) (limited available only on UMich campus - use UM VPN), and put it on your laptop folder:  ```$HOME/GNS3/images/IOS/```.  
+3. Download a Cisco 7200 IOS image file [c7200-advipservicesk9-mz.124-24.T8.image](https://drive.google.com/file/d/1L1LlgeaUuukX186Y7q3mrZcuGe3sn7Fq/view?usp=sharing) (limited available only on UMich campus - use UM VPN), and put it on your laptop folder:  ```$HOME/GNS3/images/IOS/```.  
 
 4. Go to GNS3 UI's menu```[GNS3|Edit]->Preferences->Dynamips->Cisco IOS```, click the ```New``` button to add this image as "Run this IOS router on GNS3 VM". 
 
-5. Download the related GNS3 project, [l3vpn.gns3project](../l3vpn/l3vpn.gns3project) (~40MB) and try it.  The default username/password are ```admin/admin```.  
+5. Download the related GNS3 project, [l3vpn.gns3project](https://drive.google.com/file/d/1abFk4kIUdPEiKl5KPDSphwJ_hv4nnOIl/view?usp=sharing) (~40MB, Limited to UMich campus access) and open it in GNS3.  The default username/password of routers are ```admin/admin```.  
 
 ![Cisco MPLS L3VPN in GNS3](../l3vpn/MPLS-L3VPN.png)
 
